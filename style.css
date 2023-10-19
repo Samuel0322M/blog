@@ -61,3 +61,27 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* Responsive styles */
+@media only screen and (max-width : 768px) {
+  
+   .h1{
+       font-size: 12px; /* Adjust the font size */
+       padding-left: 20px; /* Adjust the padding */
+   }
+
+   .top {
+       margin-right: 20px; /* Adjust the margin */
+   }
+
+   .sena {
+       margin-right: 60px; /* Adjust the margin */
+       width: 30px; /* Adjust the width */
+       height: 30px; /* Adjust the height */
+   }
+
+   .cuerpo{
+       margin-left: 20px; /* Adjust the margin */
+       margin-right: 20px; /* Adjust the margin */
+   }
+}
